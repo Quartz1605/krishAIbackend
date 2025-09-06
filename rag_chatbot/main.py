@@ -19,8 +19,8 @@ load_dotenv()
 src_path = Path(__file__).parent / "src"
 sys.path.append(str(src_path))
 
-from embeddings.build_vector_db import VectorDBBuilder
-from chatbot.chatbot import KeralaFarmingChatbot
+from src.embeddings.build_vector_db import VectorDBBuilder
+from src.chatbot.chatbot import KeralaFarmingChatbot
 
 
 def setup_vector_database(kb_dir: str = "data/kb", db_path: str = "chroma_db", force_rebuild: bool = False):
