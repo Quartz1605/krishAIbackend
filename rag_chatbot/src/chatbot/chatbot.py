@@ -130,7 +130,7 @@ Answer:"""
 
     def ask(self, question: str, include_sources: bool = True) -> Dict[str, any]:
         try:
-            response = self.qa_chain({"query": question})
+            response = self.qa_chain.invoke({"query": question})
             result = {
                 "question": question,
                 "answer": response["result"],
