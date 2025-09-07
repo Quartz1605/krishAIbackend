@@ -192,7 +192,7 @@ def main():
     parser.add_argument("--db_path", type=str, default="./chroma_db")
     parser.add_argument("--model", type=str, default=None, help="Optional: 'gemini' or 'llama2'")
     parser.add_argument("--temperature", type=float, default=0.1)
-    parser.add_argument("--top_k", type=int, default=5)
+    parser.add_argument("--top_k", type=int, default=3)
     
     args = parser.parse_args()
     
