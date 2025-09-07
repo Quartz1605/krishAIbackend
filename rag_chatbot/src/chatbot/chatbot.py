@@ -9,6 +9,8 @@ from langchain.chains import RetrievalQA
 from langchain.schema import Document
 from langchain_google_genai import ChatGoogleGenerativeAI
 
+
+
 # Load .env variables
 load_dotenv()
 
@@ -17,12 +19,12 @@ from embeddings.build_vector_db import VectorDBBuilder
 
 # Import LLMs
 try:
-    from langchain.chat_models import ChatOpenAI  # For Gemini via OpenAI-compatible API
+    from langchain_community.chat_models import ChatOpenAI  # For Gemini via OpenAI-compatible API
 except ImportError:
     ChatOpenAI = None
 
 try:
-    from langchain.chat_models import ChatOllama
+    from langchain_community.chat_models import ChatOllama
 except ImportError:
     ChatOllama = None
 
