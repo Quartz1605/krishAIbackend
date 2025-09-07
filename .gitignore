@@ -1,3 +1,4 @@
 venv/
 rag_chatbot/chroma_db/
 disease_detection/chroma_db/
+__pycache__/
