@@ -68,8 +68,7 @@ class VectorDBBuilder:
             collection_name=self.collection_name
         )
         
-        # Persist the database
-        vectorstore.persist()
+        
         print(f"Vector store created and persisted at {self.db_path}")
         
         return vectorstore
@@ -143,7 +142,7 @@ class VectorDBBuilder:
         
         print(f"Adding {len(documents)} documents to existing vector store...")
         vectorstore.add_documents(documents)
-        vectorstore.persist()
+        
         print("Documents added successfully")
     
     def search_similar_documents(self, query: str, k: int = 5) -> List[Document]:
