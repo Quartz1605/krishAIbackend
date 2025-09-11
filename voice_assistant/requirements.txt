@@ -1,0 +1,60 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Async Support
+aiohttp==3.9.1
+aiofiles==23.2.1
+
+# Voice Processing (ASR & TTS)
+SpeechRecognition==3.10.0
+gTTS==2.4.0
+edge-tts==6.1.9
+pydub==0.25.1
+pyaudio==0.2.14  # For microphone support (optional)
+
+# Translation Services
+googletrans==4.0.0rc1  # For Google Translate (unofficial)
+
+# Audio Processing
+librosa==0.10.1  # For advanced audio processing
+soundfile==0.12.1
+
+# Machine Learning & NLP (for Hugging Face support)
+transformers==4.36.2  # Optional: for Hugging Face models
+torch==2.1.2  # Optional: for Hugging Face models (CPU version)
+
+# Utilities
+requests==2.31.0
+numpy==1.24.4
+pandas==2.1.4
+
+# Logging & Monitoring
+loguru==0.7.2  # Alternative to standard logging (optional)
+
+# Testing (optional, for development)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2  # For testing FastAPI
+
+# Development Tools (optional)
+black==23.12.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Additional Audio Support (optional)
+ffmpeg-python==0.2.0  # For FFmpeg integration
+
+# Rate Limiting (optional, for production)
+slowapi==0.1.9
+
+# CORS Support (included in FastAPI)
+# Already included with fastapi
+
+# Note: For production deployment, consider adding:
+# - redis==5.0.1 (for distributed caching)
+# - celery==5.3.4 (for background tasks)
+# - prometheus-client==0.19.0 (for metrics)

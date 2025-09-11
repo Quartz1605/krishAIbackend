@@ -1,0 +1,129 @@
+2025-09-11 01:08:51,827 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:08:51,829 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:09:52,128 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:09:52,130 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:10:23,414 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:10:23,417 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:10:32,603 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:10:45,872 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:10:46,046 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:10:46,047 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:10:46,499 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:11:35,632 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:11:42,240 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:12:35,708 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:12:35,710 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:15:48,209 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:15:48,211 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:15:57,449 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:15:58,716 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:15:58,865 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:15:58,866 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:15:59,157 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:16:07,884 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:16:13,955 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:16:14,232 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:16:14,232 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound1.mp3
+2025-09-11 01:16:14,300 - voice_assistant.speech_to_text - ERROR - Transcription failed: [WinError 2] The system cannot find the file specified
+2025-09-11 01:16:14,300 - voice_assistant.voice_handler - ERROR - Voice processing failed: [WinError 2] The system cannot find the file specified
+2025-09-11 01:17:00,230 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:17:00,232 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:17:08,913 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:17:10,213 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:17:10,347 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:17:10,348 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:17:10,615 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:17:18,489 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:17:24,600 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:17:24,891 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:17:24,891 - voice_assistant.speech_to_text - INFO - Transcribing audio: C:\D\SL\SIIIII\krishAIbackend\disease_detection\test_audio\sound1.mp3
+2025-09-11 01:17:24,941 - voice_assistant.speech_to_text - ERROR - Transcription failed: [WinError 2] The system cannot find the file specified
+2025-09-11 01:17:24,942 - voice_assistant.voice_handler - ERROR - Voice processing failed: [WinError 2] The system cannot find the file specified
+2025-09-11 01:20:24,565 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:20:24,567 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:20:33,146 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:20:34,351 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:20:34,477 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:20:34,478 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:20:34,740 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:20:42,759 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:20:48,882 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:20:49,182 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:20:49,183 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound1.mp3
+2025-09-11 01:20:56,563 - voice_assistant.speech_to_text - INFO - Confidence: 0.00
+2025-09-11 01:20:56,563 - voice_assistant.voice_handler - INFO - Translating to English...
+2025-09-11 01:25:05,844 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:25:05,846 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:25:14,762 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:25:15,992 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:25:16,123 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:25:16,124 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:25:16,385 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:25:24,179 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:25:30,347 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:25:30,654 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:25:30,654 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound1.mp3
+2025-09-11 01:25:38,237 - voice_assistant.speech_to_text - INFO - Confidence: 0.00
+2025-09-11 01:25:38,238 - voice_assistant.voice_handler - INFO - Translating to English...
+2025-09-11 01:27:55,702 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:27:55,704 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:28:04,546 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:28:05,753 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:28:05,876 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:28:05,877 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:28:06,139 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:28:14,093 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:28:20,278 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:28:20,580 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:28:20,581 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound1.mp3
+2025-09-11 01:28:28,082 - voice_assistant.speech_to_text - INFO - Confidence: 0.00
+2025-09-11 01:28:28,082 - voice_assistant.voice_handler - INFO - Translating to English...
+2025-09-11 01:30:14,171 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:30:14,173 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:30:23,392 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:30:24,658 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:30:24,795 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:30:24,796 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:30:25,088 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:30:33,106 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:30:39,512 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:30:39,817 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:30:39,818 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound1.mp3
+2025-09-11 01:30:47,383 - voice_assistant.speech_to_text - INFO - Confidence: 0.00
+2025-09-11 01:30:47,383 - voice_assistant.voice_handler - INFO - Translating to English...
+2025-09-11 01:30:58,059 - voice_assistant.translation - INFO - Translating to Malayalam: I cannot answer the question because the provided context is empty and the question is written in a language (possibly a corrupted version of Kannada or another South Indian script) that I cannot understand.  Please provide a meaningful context and a question in English or another language I can process.
+2025-09-11 01:31:03,807 - voice_assistant.text_to_speech - INFO - Speech generated: output_audio\response_ml_20250911_013101.mp3
+2025-09-11 01:31:05,088 - voice_assistant.text_to_speech - INFO - Playing audio: output_audio\response_ml_20250911_013101.mp3
+2025-09-11 01:52:36,675 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:52:36,677 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:52:45,955 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:52:47,344 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:52:47,475 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:52:47,476 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:52:47,759 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:52:55,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:53:01,865 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:53:02,159 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:53:02,160 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound1.mp3
+2025-09-11 01:53:09,729 - voice_assistant.speech_to_text - INFO - Confidence: 0.00
+2025-09-11 01:53:09,729 - voice_assistant.voice_handler - INFO - Translating to English...
+2025-09-11 01:53:12,921 - voice_assistant.translation - INFO - Translating to Malayalam: The provided text is in Malayalam, and the question is in a language I cannot identify.  Therefore, I cannot answer the question.  The Malayalam text describes the Agriculture Information Management System (AIMS) in Kerala, India, including its website and mobile app, and mentions various agricultural schemes and projects.  To answer your question, please provide it in English or another language I can process.
+2025-09-11 01:53:20,728 - voice_assistant.text_to_speech - INFO - Speech generated: output_audio\response_ml_20250911_015316.mp3
+2025-09-11 01:53:21,897 - voice_assistant.text_to_speech - INFO - Playing audio: output_audio\response_ml_20250911_015316.mp3
+2025-09-11 01:57:56,163 - voice_assistant - INFO - Voice Assistant package initialized
+2025-09-11 01:57:56,165 - voice_assistant - WARNING - Configuration validation failed. Some features may not work properly.
+2025-09-11 01:58:04,828 - voice_assistant.speech_to_text - INFO - Loading Whisper base model...
+2025-09-11 01:58:06,233 - voice_assistant.speech_to_text - INFO - Whisper model loaded successfully
+2025-09-11 01:58:06,357 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\D\\SL\\SIIIII\\krishAIbackend\\disease_detection\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-11 01:58:06,358 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\D\SL\SIIIII\krishAIbackend\disease_detection\venv\Lib\site-packages\comtypes\gen'
+2025-09-11 01:58:06,629 - voice_assistant.text_to_speech - INFO - TTS engine initialized successfully
+2025-09-11 01:58:14,766 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-09-11 01:58:21,086 - chromadb.telemetry.product.posthog - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-11 01:58:21,381 - voice_assistant.voice_handler - INFO - Converting speech to text...
+2025-09-11 01:58:21,382 - voice_assistant.speech_to_text - INFO - Transcribing audio: test_audio\sound2.mp3
+2025-09-11 01:58:28,118 - voice_assistant.speech_to_text - INFO - Confidence: 0.00
+2025-09-11 01:58:28,118 - voice_assistant.voice_handler - INFO - Translating to English...
+2025-09-11 01:58:30,570 - voice_assistant.translation - INFO - Translation result: Settled Unigganili-party coriaceae is caused by
+2025-09-11 01:58:31,786 - voice_assistant.translation - INFO - Translating to Malayalam: The provided text does not mention "Settled Unigganili-party coriaceae" or any disease with a similar name.  Therefore, I cannot answer your question based on the given context.
+2025-09-11 01:58:37,773 - voice_assistant.text_to_speech - INFO - Speech generated: output_audio\response_ml_20250911_015835.mp3
+2025-09-11 01:58:38,975 - voice_assistant.text_to_speech - INFO - Playing audio: output_audio\response_ml_20250911_015835.mp3
