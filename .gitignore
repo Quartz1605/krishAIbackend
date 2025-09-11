@@ -5,3 +5,6 @@ disease_detection/chroma_db/
 __pycache__/
 *.py[cod]
 *$py.class
+disease_detection/.env
+rag_chatbot/src/__pycache__/__init__.cpython-312.pyc
+rag_chatbot/src/chatbot/__pycache__/__init__.cpython-312.pyc
