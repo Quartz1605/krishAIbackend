@@ -16,7 +16,7 @@ sys.path.append(str(Path(__file__).parent / "rag_chatbot" / "src"))
 
 # Import the chatbot
 try:
-    from rag_chatbot.src.chatbot import KeralaFarmingChatbot
+    from rag_chatbot.src.chatbot.chatbot import KeralaFarmingChatbot
 except ImportError as e:
     print(f"Error importing KeralaFarmingChatbot: {e}")
     print("Make sure the chatbot module is accessible and all dependencies are installed.")
