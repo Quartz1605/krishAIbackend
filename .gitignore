@@ -1,5 +1,6 @@
 venv/
 rag_chatbot/chroma_db/
+rag_chatbot/data/
 disease_detection/chroma_db/
 js-backend/
 rag_chatbot/data/
@@ -7,3 +8,10 @@ disease_detection/chroma_db/
 __pycache__/
 *.py[cod]
 *$py.class
+__pycache__/
+*.py[cod]
+*$py.class
+disease_detection/.env
+rag_chatbot/src/__pycache__/__init__.cpython-312.pyc
+rag_chatbot/src/chatbot/__pycache__/__init__.cpython-312.pyc
+js-backend/
