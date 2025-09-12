@@ -8,3 +8,4 @@ __pycache__/
 disease_detection/.env
 rag_chatbot/src/__pycache__/__init__.cpython-312.pyc
 rag_chatbot/src/chatbot/__pycache__/__init__.cpython-312.pyc
+js-backend/

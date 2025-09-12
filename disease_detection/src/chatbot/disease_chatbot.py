@@ -98,7 +98,7 @@ class DiseaseDetectionChatbot:
                 raise ValueError("GEMINI_API_KEY not found in .env")
             
             return ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash",
+                model="gemini-2.0-flash",
                 temperature=self.temperature,
                 google_api_key=api_key
             )
