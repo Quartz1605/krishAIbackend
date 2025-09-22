@@ -16,7 +16,7 @@ sys.path.append(str(Path(__file__).parent / "rag_chatbot" / "src"))
 
 # Import the chatbot
 try:
-    from rag_chatbot.src.chatbot import KeralaFarmingChatbot
+    from rag_chatbot.src.chatbot.chatbot import KeralaFarmingChatbot
 except ImportError as e:
     print(f"Error importing KeralaFarmingChatbot: {e}")
     print("Make sure the chatbot module is accessible and all dependencies are installed.")
@@ -30,7 +30,18 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Enable CORS for all routes
-CORS(app)
+CORS(app, origins=[
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://krishai.vercel.app",
+    "https://krishhai.vercel.app",
+    "https://vercel.app",
+    # Add your specific Vercel deployment URL here
+    # "https://your-app-name.vercel.app"
+], 
+methods=['GET', 'POST', 'OPTIONS'],
+allow_headers=['Content-Type', 'Authorization'],
+supports_credentials=True)
 
 # Global chatbot instance
 chatbot = None
@@ -209,7 +220,7 @@ def main():
     try:
         # Run Flask app
         app.run(
-            host='127.0.0.1',
+            host='0.0.0.0',
             port=8000,
             debug=True,
             threaded=True
